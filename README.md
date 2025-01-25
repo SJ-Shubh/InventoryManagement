@@ -47,7 +47,7 @@ A simple inventory management system built using Java, JDBC, and MySQL.
      ```
 
 ## Screenshots
-(Optional) Add screenshots of the project in action.
+
 
 ## Future Enhancements
 - User authentication
