@@ -1,3 +1,5 @@
+package com.inventory;
+
 import java.util.List;
 
 public class Inventory {
@@ -16,7 +18,7 @@ public class Inventory {
         List<Product> products = inventoryOperations.getAllProducts();
         for (Product product : products) {
             System.out.println("ID: " + product.getId() + ", Name: " + product.getName() +
-                               ", Quantity: " + product.getQuantity() + ", Price: " + product.getPrice());
+                    ", Quantity: " + product.getQuantity() + ", Price: " + product.getPrice());
         }
     }
 

@@ -1,3 +1,5 @@
+package com.inventory;
+
 import java.sql.*;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -14,7 +16,7 @@ public class DatabaseConnection {
                 String url = properties.getProperty("db.url");
                 String username = properties.getProperty("db.username");
                 String password = properties.getProperty("db.password");
-                
+
                 connection = DriverManager.getConnection(url, username, password);
             } catch (SQLException | IOException e) {
                 e.printStackTrace();
