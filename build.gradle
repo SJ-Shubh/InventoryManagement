@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 sourceSets {
@@ -14,10 +15,19 @@ sourceSets {
         }
     }
 }
+
 repositories {
     mavenCentral()
 }
 
 dependencies {
     implementation 'mysql:mysql-connector-java:8.0.25'
+    implementation files('libs/lib/mysql-connector-java.jar')
 }
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17  // Or use the appropriate version
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+mainClassName = 'com.inventory.Main'

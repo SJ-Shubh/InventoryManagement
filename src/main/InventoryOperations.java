@@ -7,6 +7,19 @@ public class InventoryOperations {
 
     public InventoryOperations() {
         this.connection = DatabaseConnection.getConnection();
+
+        // try {
+        // // Database URL, username, and password
+        // String url = "jdbc:mysql://localhost:3306/inventory";
+        // String user = "db_username";
+        // String password = "db_password";
+
+        // // Establishing the connection
+        // connection = DriverManager.getConnection(url, user, password);
+        // } catch (SQLException e) {
+        // System.out.println("Error establishing database connection: " +
+        // e.getMessage());
+        // }
     }
 
     public void addProduct(Product product) {
