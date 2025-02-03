@@ -1,3 +1,5 @@
+package com.inventory;
+
 import java.util.Scanner;
 
 public class Main {
