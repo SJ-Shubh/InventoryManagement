@@ -17,7 +17,7 @@ A simple inventory management system built using Java, JDBC, and MySQL.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/Java-Inventory-Management.git
+   git clone https://github.com/sj-shubh/Java-Inventory-Management.git
    ```
 
 2. Install MySQL and create the database:
